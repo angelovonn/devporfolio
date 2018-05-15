@@ -1,0 +1,47 @@
+body {
+	background: url(../assets/images/BG.jpg) no-repeat center fixed;
+	=webkit-background-size: cover; /*targets google chrome and safari web browsers
+}*/
+    -moz-background-size: cover; /*mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover;
+    font-family: 'Raleway', sans-serif; 
+}
+
+ h1 {
+
+ 	color: black;
+ 	font-size: 40px;
+ 	font-weight: normal;
+ 	margin-bottom: 0;
+ 	font-family: 'Lato', sans-serif;
+ }
+
+
+h2 { 
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: -0.05px;
+
+     }
+.bio {
+	color:black;
+	font-size: 15px;
+}     
+
+.about {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.me {
+	height: 130px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: white;
+	margin-top: 40px;
+}
